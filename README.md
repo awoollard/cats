@@ -7,3 +7,9 @@ A programming test from AGL.
 
 ## Unit Tests
 You can run unit tests using Jasmine by opening the `jasmine/SpecRunner.html` file in a web browser.
+
+## Libraries
+This solution uses:
+ * jQuery for ajax requests
+ * Lodash for data transformation
+ * Jasmine for unit tests
