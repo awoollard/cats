@@ -22,7 +22,12 @@ function displayNames(names, elementSelector) {
   });
 }
 
+// Wrapper for jQuery getJson
+function getJson(url, callback) {
+  $.getJSON(url, callback);
+}
+
 // Entry point
-$.getJSON(url, function (data) {
-  processJson(data);
+getJson(url, function(data) {
+  processJson(data)
 });
